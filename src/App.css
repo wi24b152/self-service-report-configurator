@@ -1,0 +1,292 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f5f8;
+  color: #1f2933;
+}
+
+.app-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.app-header {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.app-header h1 {
+  margin: 0 0 8px 0;
+  color: #111827;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.app-header p {
+  margin: 0;
+  color: #4b5563;
+  font-size: 17px;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #d8dee8;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06);
+}
+
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 18px;
+  color: #111827;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.card h3 {
+  margin-top: 24px;
+  margin-bottom: 12px;
+  color: #1f2933;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.field-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.field-option {
+  font-size: 16px;
+  color: #1f2933;
+}
+
+.field-option input {
+  margin-right: 8px;
+}
+
+.form-row {
+  margin-bottom: 14px;
+}
+
+label {
+  color: #1f2933;
+  font-weight: 500;
+}
+
+input,
+select {
+  padding: 8px 10px;
+  border: 1px solid #b8c2cc;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #111827;
+  font-size: 14px;
+}
+
+button {
+  background: #1f4e79;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 9px 15px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+button:hover {
+  background: #163a59;
+}
+
+button.secondary {
+  background: #6b7280;
+}
+
+button.secondary:hover {
+  background: #4b5563;
+}
+
+button.danger {
+  background: #b91c1c;
+}
+
+button.danger:hover {
+  background: #7f1d1d;
+}
+
+.action-row {
+  margin-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+pre {
+  background: #f8fafc;
+  border: 1px solid #d8dee8;
+  padding: 16px;
+  border-radius: 8px;
+  overflow-x: auto;
+  color: #111827;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #ffffff;
+  margin-top: 12px;
+}
+
+th {
+  background: #e8eef5;
+  color: #111827;
+  text-align: left;
+  font-weight: 700;
+}
+
+th,
+td {
+  border: 1px solid #d8dee8;
+  padding: 11px;
+}
+
+tbody tr:nth-child(even) {
+  background: #f9fafb;
+}
+
+tbody tr:hover {
+  background: #eef6ff;
+}
+
+.message-box {
+  background: #fff7ed;
+  border: 1px solid #f59e0b;
+  padding: 14px;
+  margin-bottom: 24px;
+  border-radius: 10px;
+  color: #111827;
+}
+
+.history-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.history-entry {
+  border: 1px solid #d8dee8;
+  border-radius: 10px;
+  padding: 16px;
+  background: #f9fafb;
+}
+
+.history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.summary-box {
+  display: flex;
+  gap: 24px;
+  background: #eef6ff;
+  border: 1px solid #c7ddf4;
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-bottom: 18px;
+}
+
+.summary-box div {
+  color: #1f2933;
+}
+
+.summary-box strong {
+  color: #1f4e79;
+  font-size: 20px;
+}
+
+.summary-box {
+  display: flex;
+  gap: 24px;
+  background: #eef6ff;
+  border: 1px solid #c7ddf4;
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-bottom: 18px;
+}
+
+.summary-box div {
+  color: #1f2933;
+}
+
+.summary-box strong {
+  color: #1f4e79;
+  font-size: 20px;
+}
+
+.action-row {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.action-row button {
+  min-width: 180px;
+}
+
+.card {
+  text-align: left;
+}
+
+.card h2 {
+  text-align: left;
+}
+
+.action-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.action-row button {
+  min-width: 190px;
+  margin: 0;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.form-row label {
+  margin: 0;
+}
+
+button {
+  margin: 0;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.2);
+}
+
+.action-row {
+  margin-top: 16px;
+}
