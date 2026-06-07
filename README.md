@@ -1,16 +1,43 @@
-# React + Vite
+# Self-Service Report Configurator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the prototype developed as part of the bachelor thesis:
 
-Currently, two official plugins are available:
+**Prototypische Entwicklung eines Self-Service-Konfigurationsmechanismus für operative Reports im ERP-Kontext**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The prototype demonstrates how simple operational ERP reports can be configured through a controlled self-service mechanism.
 
-## React Compiler
+## Purpose of the Prototype
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The prototype shows how business users can configure simple report adaptations without directly changing source code, database queries or technical report logic.
 
-## Expanding the ESLint configuration
+The focus is on the following functions:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- selection of report fields
+- definition of filter conditions
+- sorting of report data
+- dynamic report generation
+- validation of configurations
+- understandable feedback messages
+- saving and reusing report configurations
+- import and export of configurations
+- CSV export of generated reports
+
+## Technology
+
+The prototype was implemented as a web-based React/Vite application.
+
+Used technologies:
+
+- JavaScript
+- React
+- Vite
+- JSON for report configurations
+- CSV export for generated reports
+
+## How to Start the Prototype
+
+Clone the repository:
+
+```bash
+git clone https://github.com/wi24b152/self-service-report-configurator.git
+cd self-service-report-configurator
